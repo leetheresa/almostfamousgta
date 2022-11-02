@@ -1,0 +1,17 @@
+.container {
+  margin: 0 auto;
+}
+
+.hero {
+  color: $color-dark-gray;
+
+  &.add-in-view-on-view {
+    opacity: 0;
+    transition: all .6s ease-out;
+    transform: translateX(-50px);
+  }
+  &.in-view {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

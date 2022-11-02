@@ -1,0 +1,39 @@
+@import 'src/styles/variables';
+
+footer {
+  background-color: $color-section-purple;
+  padding: 50px 0 25px;
+  margin-top: 50px;
+
+  .footer {
+    margin: 0 auto;
+
+    ul {
+      padding-left: 0;
+
+      li {
+        list-style-type: none;
+
+        a {
+          color: $white;
+        }
+      }
+    }
+
+    p {
+      color: $white;
+    }
+
+    .footer-bottom {
+      margin-top: 50px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+      max-width: $base-xl-width;
+    }
+
+    @include media-breakpoint-down(xl) {
+      max-width: $base-width;
+    }
+  }
+}

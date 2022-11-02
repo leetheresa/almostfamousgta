@@ -1,0 +1,61 @@
+/**
+ * index.css
+ *
+ * The entry point for the css.
+ *
+ */
+
+
+@import 'reset';
+
+
+/**
+ * Include Bootstrap
+ */
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/bootstrap";
+
+
+/**
+ * Add adjust font
+ */
+@import 'adjust-font';
+
+
+/**
+ * Add variables
+ */
+@import 'variables';
+
+
+/**
+ * Add typography
+ */
+@import 'typography';
+
+
+/**
+ * Add global styles
+ */
+@import 'global';
+
+
+/**
+ * Include Atoms
+ */
+@import 'src/components/buttons/buttons';
+
+
+/**
+ * Include Widgets
+ */
+@import 'src/components/header/header';
+@import 'src/components/footer/footer';
+
+
+/**
+ * Include styles for individual pages
+ *
+ */
+@import './pages/homepage.scss';
+@import './pages/internalpages.scss';

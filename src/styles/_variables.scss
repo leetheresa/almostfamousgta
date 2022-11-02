@@ -1,0 +1,65 @@
+/**
+ * variables.css
+ *
+ * Variables for the website
+ *
+ */
+
+/* fonts */
+$font-family: 'Montserrat', sans-serif;
+
+/* colours */
+$color-dark-gray: #262626;
+$color-red: #D2222A;
+$color-gray: #F5F5F5;
+$color-medium-gray: #A2A2A2;
+$color-black : #000;
+
+
+/* colours for sections */
+$colors: (
+        'default': #fff,
+        'pink': #7B3917,
+        'purple': #0D588E,
+        'orange': #FA8807,
+        'green': #00A894,
+        'blue': #009CDC,
+        'red': #D5001B,
+        'dark-red': #D2222A,
+        'gray': #8C8C8C,
+        'dark-gray': #494949,
+        'black': #000,
+        'white': #fff,
+        'undefined':#000
+);
+
+$color-section-pink: #7B3917;
+$color-section-purple: #0D588E;
+$color-section-orange: #FD6139;
+$color-section-green: #00A894;
+$color-section-blue: #00ADEF;
+$color-section-red: #ED1818;
+$color-section-gray: #9E9E9E;
+$color-section-dark-gray: #494949;
+
+/* grid */
+$base-width: 120rem;
+$base-xl-width: 144rem;
+
+/* spacing */
+
+/* Media queries */
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1440px,
+        xxl:1600px
+);
+
+
+
+
+
+
