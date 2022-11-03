@@ -1,4 +1,241 @@
-header {
-  background-color: $pink;
-  padding: 50px 0;
+.afg-header {
+  background-color: black;
+  padding: 10px 0;
+
+  a {
+    border-bottom: none;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+
+  &__logo {
+    max-width: 230px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    svg {
+      .cls-1 {
+        fill:#fff
+      }
+      .cls-2 {
+        fill:#ffde17
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__menu-btn {
+    display: none;
+    background-color: unset;
+    outline: none;
+    font-weight: 500;
+    margin: 0 40px;
+    padding: 12px 0;
+    max-width: 40px;
+
+    svg {
+      width: 100%;
+      height: auto;
+    }
+
+    svg path {
+      &.line {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 6;
+        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      &.line1 {
+        stroke-dasharray: 60 207;
+        stroke-width: 6;
+      }
+
+      &.line2 {
+        stroke-dasharray: 60 60;
+        stroke-width: 6;
+      }
+
+      &.line3 {
+        stroke-dasharray: 60 207;
+        stroke-width: 6;
+      }
+    }
+
+    &.active {
+      .line1 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 6;
+      }
+      .line2 {
+        stroke-dasharray: 1 60;
+        stroke-dashoffset: -30;
+        stroke-width: 6;
+      }
+      .line3 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 6;
+      }
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.625em 1.875em;
+  }
+
+  &__list {
+    display: flex;
+
+    span {
+      padding: 12px 1.5em 12px 1em;
+      color: #ffd900;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style-type: none;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-left: 0px;
+    }
+
+    li {
+      padding-right: 1.5rem;
+
+      &:last-child {
+        padding-right: 0px;
+      }
+
+      a {
+        color: #fff;
+        font-weight: 500;
+        padding: 12px 0 5px;
+
+        &:hover {
+          text-decoration: none;
+          -webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
+          -moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
+          box-shadow: 0px 1px 0px 0px rgba(255,255,255,1);
+        }
+      }
+    }
+  }
+
+  &__mobile-text {
+    display: none;
+  }
+
+  @media screen and (max-width: 992px) {
+    display: flex;
+    flex-direction: column;
+
+    &__logo {
+      max-width: 250px;
+      margin-left: 1.875em;
+    }
+
+    &__menu-btn {
+      align-items: center;
+      display: flex;
+    }
+
+    &__list {
+      position: absolute;
+      top: 73px;
+      left: 0;
+      right: 0;
+      background-color: black;
+      z-index: 500;
+      padding: 3em 1.875em;
+      height: 0;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.2s ease-in-out;
+      display: block;
+      width: 100%;
+
+      &.active {
+        height: calc(100vh - 83px);
+        opacity: 1;
+        visibility: visible;
+        padding-left: 40px;
+      }
+
+      span {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      ul {
+        margin-top: 1em;
+        display: block;
+      }
+
+      li {
+        padding: 10px 0;
+      }
+
+      li a {
+        border-bottom: none;
+        font-size: 18px;
+
+        &:hover {
+          box-shadow: none;
+        }
+      }
+    }
+
+    &__nav {
+      position: relative;
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 560px) {
+    &__list {
+      top: 57px;
+
+
+      &.active {
+        height: calc(100vh - 66px);
+        padding-left: 30px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 35em) {
+    position: relative;
+
+    &__logo {
+      max-width: 150px;
+      margin-left: 1.25em;
+    }
+
+    &__list {
+      padding-left: 1.25em;
+      padding-right: 1.25em;
+    }
+
+    &__menu-btn {
+      margin-right: 1.25em;
+      margin-left: 0;
+      padding: 4px 0;
+    }
+  }
 }

@@ -4,7 +4,7 @@ import enterView from 'enter-view';
 import { tns } from "../../node_modules/tiny-slider/src/tiny-slider"
 
 // Handle enter-view animation
-var addInViewElements = $('.add-in-view-on-view')
+const addInViewElements = $('.add-in-view-on-view');
 
 if(addInViewElements){
     enterView({
