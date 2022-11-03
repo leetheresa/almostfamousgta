@@ -26,8 +26,13 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bootstrap-select": "^1.13.18",
+    "debounce": "^1.2.0",
     "enter-view": "^2.0.1",
     "jquery": "^3.6.0",
+    "jquery-ui": "^1.12.1",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
