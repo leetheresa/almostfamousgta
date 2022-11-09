@@ -4,13 +4,13 @@ import '../styles/index.scss';
 
 import Layout from "./Layout";
 
-const About = () => {
+const Gallery = () => {
     return (
         <>
             <Layout>
-                <div className="container internalpages">
+                <div className="container">
                     <section className="hero">
-                        <p><strong>Body - About</strong></p>
+                        <p><strong>Body - Gallery</strong></p>
                     </section>
                 </div>
             </Layout>
@@ -18,4 +18,4 @@ const About = () => {
     )
 }
 
-export default About
+export default Gallery

@@ -1,9 +1,10 @@
 @import 'src/styles/variables';
 
 footer {
-  background-color: $color-section-purple;
-  padding: 50px 0 25px;
-  margin-top: 50px;
+  background-color: black;
+  padding: 50px 0;
+  color: white;
+  text-align: center;
 
   .footer {
     margin: 0 auto;
@@ -18,22 +19,6 @@ footer {
           color: $white;
         }
       }
-    }
-
-    p {
-      color: $white;
-    }
-
-    .footer-bottom {
-      margin-top: 50px;
-    }
-
-    @include media-breakpoint-up(xxl) {
-      max-width: $base-xl-width;
-    }
-
-    @include media-breakpoint-down(xl) {
-      max-width: $base-width;
     }
   }
 }

@@ -11,14 +11,12 @@ const Homepage = () => {
 	return (
 		<>
 			<Layout>
-				<div className="container homepage">
-					<section className="hero">
-						<p><strong>Body - Homepage</strong></p>
+				<section className="afg-hero-banner">
+					<p><strong>Body - Homepage</strong></p>
 
-						<ButtonDefault />
-						<ButtonSolid />
-					</section>
-				</div>
+					<ButtonDefault />
+					<ButtonSolid />
+				</section>
 			</Layout>
 		</>
 	)

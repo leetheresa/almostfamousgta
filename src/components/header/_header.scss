@@ -1,3 +1,10 @@
+.afg-content {
+  display: grid;
+  grid-template-rows: 86px 1fr 115px;
+  grid-template-columns: 1fr;
+  height: 100vh;
+}
+
 .afg-header {
   background-color: black;
   padding: 10px 0;
@@ -19,15 +26,6 @@
     display: flex;
     align-items: center;
 
-    svg {
-      .cls-1 {
-        fill:#fff
-      }
-      .cls-2 {
-        fill:#ffde17
-      }
-    }
-
     img {
       width: 100%;
     }
@@ -38,7 +36,7 @@
     background-color: unset;
     outline: none;
     font-weight: 500;
-    margin: 0 40px;
+    margin: 0 10px;
     padding: 12px 0;
     max-width: 40px;
 
@@ -94,11 +92,11 @@
   &__nav {
     display: flex;
     justify-content: space-between;
-    padding: 0.625em 1.875em;
   }
 
   &__list {
     display: flex;
+    padding-left: 30px;
 
     span {
       padding: 12px 1.5em 12px 1em;
@@ -136,17 +134,12 @@
     }
   }
 
-  &__mobile-text {
-    display: none;
-  }
-
-  @media screen and (max-width: 992px) {
+  @include media-breakpoint-down(sm){
     display: flex;
     flex-direction: column;
 
     &__logo {
-      max-width: 250px;
-      margin-left: 1.875em;
+      max-width: 150px;
     }
 
     &__menu-btn {
@@ -161,7 +154,6 @@
       right: 0;
       background-color: black;
       z-index: 500;
-      padding: 3em 1.875em;
       height: 0;
       opacity: 0;
       visibility: hidden;
@@ -173,7 +165,6 @@
         height: calc(100vh - 83px);
         opacity: 1;
         visibility: visible;
-        padding-left: 40px;
       }
 
       span {
@@ -198,44 +189,6 @@
           box-shadow: none;
         }
       }
-    }
-
-    &__nav {
-      position: relative;
-      padding: 0;
-      margin: 0;
-    }
-  }
-
-  @media screen and (max-width: 560px) {
-    &__list {
-      top: 57px;
-
-
-      &.active {
-        height: calc(100vh - 66px);
-        padding-left: 30px;
-      }
-    }
-  }
-
-  @media screen and (max-width: 35em) {
-    position: relative;
-
-    &__logo {
-      max-width: 150px;
-      margin-left: 1.25em;
-    }
-
-    &__list {
-      padding-left: 1.25em;
-      padding-right: 1.25em;
-    }
-
-    &__menu-btn {
-      margin-right: 1.25em;
-      margin-left: 0;
-      padding: 4px 0;
     }
   }
 }

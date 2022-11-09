@@ -7,9 +7,9 @@ import Footer from "../components/footer/Footer";
 
 const Layout = ({ children }) => {
     return (
-        <div>
+        <div className="afg-content">
             <Header />
-            <div className="page-wrapper">
+            <div className="px-5 py-5 container">
                 {children}
             </div>
             <Footer />

@@ -27,7 +27,7 @@ class Header extends React.Component {
     render() {
         return (
             <header className="afg-header">
-                <nav className="afg-header__nav l-content-container">
+                <nav className="afg-header__nav container">
                     <div className="afg-header__logo">
                         <Link to="/" aria-label="Almost Famous GTA homepage">
                             <img src={Logo} alt="Almost Famous GTA band logo" />
@@ -44,7 +44,7 @@ class Header extends React.Component {
                         <span className="sr-only">Menu</span>
                     </button>
                     <div className={"afg-header__list" + (this.state.menuOpen ? ' active' : '')}>
-                        <ul className="">
+                        <ul className="container">
                             <li>
                                 <Link to="/" onClick={this.handleClose}>HOME</Link>
                             </li>

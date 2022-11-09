@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
         <footer>
-            <div className="footer">
-
+            <div className="container">
+                COPYRIGHT © 2022 Almost Famous GTA
             </div>
         </footer>
     )
