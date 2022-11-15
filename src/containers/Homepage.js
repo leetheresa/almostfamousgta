@@ -3,13 +3,14 @@ import React from 'react'
 import '../styles/index.scss';
 
 import Layout from "./Layout";
-import HeroBanner from "../components/herobanner/Herobanner";
+import HeroBanner from "../components/herobanner/HeroBanner";
 import PromoCard from "../components/promoCard/promoCard";
 
 import LionHeartImage from "../assets/Lionheart-990x556.jpg";
 import StGeorgePubImage from "../assets/1-990x556.jpg";
 import HonestLawyer1Image from "../assets/Honest-Lawyer-Banner-939x556.jpg";
 import OscarsRoadHouseImage from "../assets/Restaurant-990x556.jpg";
+import SouthShoreImage from "../assets/shore.jpeg";
 
 const Homepage = () => {
 	return (
@@ -23,6 +24,13 @@ const Homepage = () => {
 							   address={"Derry Road West, Unit 24, Mississauga"}
 							   description={"Show starts at 9pm"}
 							   image={LionHeartImage}
+					/>
+					<PromoCard heading={"December 16th (2022) - Almost Famous at the South Shore Bar & Grill"}
+							   subHeading={"South Shore Bar & Grill"}
+							   phone={"(416) 704-1820"}
+							   address={"264 Browns Line, Toronto, ON, Canada, Ontario"}
+							   description={"Show starts at 8pm"}
+							   image={SouthShoreImage}
 					/>
 					<PromoCard heading={"January 6th (2023) - Almost Famous at The St. George Pub"}
 							   subHeading={"The St. George Pub, No cover"}
