@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     return (
         <div className="afg-content">
             <Header />
-            <div className="px-5 py-5 container">
+            <div className="pb-5">
                 {children}
             </div>
             <Footer />

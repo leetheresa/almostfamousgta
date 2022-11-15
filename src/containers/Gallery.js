@@ -8,11 +8,9 @@ const Gallery = () => {
     return (
         <>
             <Layout>
-                <div className="container">
-                    <section className="hero">
-                        <p><strong>Body - Gallery</strong></p>
-                    </section>
-                </div>
+                <section>
+                    <p><strong>Body - Gallery</strong></p>
+                </section>
             </Layout>
         </>
     )

@@ -1,0 +1,31 @@
+.afg-hero-banner {
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+
+  img {
+    height: 220px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    tranform: translate(-50%, -50%);
+    z-index: -1;
+  }
+
+  h1 {
+    color: white;
+
+    .afg-hero-banner__seo {
+      visibility: hidden;
+      opacity: 0;
+      height: 0;
+      width: 0;
+      position: absolute;
+      z-index: -1;
+    }
+  }
+}

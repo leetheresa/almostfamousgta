@@ -1,17 +1,90 @@
-.container {
-  margin: 0 auto;
+/* Typography settings */
+
+// Styles for:
+// h1, h2, h3, h4, h5, blockquote, q, ul, ol, p
+
+h1, h2, h3, h4, h6, .afg-h1, .afg-h2 {
+  font-family: 'Teko', sans-serif;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 
-.hero {
-  color: $color-dark-gray;
+h1, .afg-h1 {
+  font-size: 2.5rem;
+}
 
-  &.add-in-view-on-view {
-    opacity: 0;
-    transition: all .6s ease-out;
-    transform: translateX(-50px);
+h2, .afg-h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h4, p, a {
+  font-size: 1.6rem;
+  line-height: 1.63;
+}
+
+h5 {
+  font-size: 1.4rem;
+  line-height: 1.57;
+  letter-spacing: 0.02px;
+}
+
+h6 {
+  font-size: 1.2rem;
+  line-height: normal;
+  letter-spacing: 0.02px;
+}
+
+p, li, label, a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+figcaption, label {
+  font-size: 1.6rem;
+  line-height: 1.29;
+
+  a {
+    font-size: 1.6rem;
+    line-height: 1.29;
   }
-  &.in-view {
-    opacity: 1;
-    transform: translateX(0px);
+}
+
+@include media-breakpoint-up(sm) {
+  h1, h2, h3, .afg-h1 {
+    letter-spacing: 0;
+    line-height: 1.15;
+  }
+
+  h1, .afg-h1 {
+    font-size: 4rem;
+  }
+
+  h2, .afg-h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+    letter-spacing: normal;
+    line-height: 1.44;
+  }
+
+  h5 {
+    font-size: 1.8rem;
+    letter-spacing: 0.03px;
+    line-height: 1.22;
+  }
+
+  h6 {
+    font-size: 1.4rem;
+    line-height: normal;
+    text-transform: uppercase;
   }
 }

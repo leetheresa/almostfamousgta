@@ -8,11 +8,9 @@ const About = () => {
     return (
         <>
             <Layout>
-                <div className="container internalpages">
-                    <section className="hero">
-                        <p><strong>Body - About</strong></p>
-                    </section>
-                </div>
+                <section>
+                    <p><strong>Body - About</strong></p>
+                </section>
             </Layout>
         </>
     )
