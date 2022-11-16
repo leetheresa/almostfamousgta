@@ -8,6 +8,7 @@ h1, h2, h3, h4, h6, .afg-h1, .afg-h2 {
   margin-bottom: 1rem;
   font-weight: bold;
   text-transform: uppercase;
+  color: #fff;
 }
 
 h1, .afg-h1 {
@@ -42,9 +43,10 @@ h6 {
 p, li, label, a {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.6rem;
+  color: #fff;
 }
 
-figcaption, label {
+label {
   font-size: 1.6rem;
   line-height: 1.29;
 

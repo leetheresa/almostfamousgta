@@ -285,7 +285,7 @@ const Homepage = () => {
 					);
 				})}
 			</section>
-			<hr className="container px-0" />
+			<hr className="container px-0 bg-white" />
 			<section className="container py-5">
 				<h2 className="text-center afg-h1 mb-5 pb-5">Recent Performances</h2>
 				{recentGigs.sort((a,b) => new Date(b.date) - new Date(a.date)).slice(0, next)?.map((item, index) => {
