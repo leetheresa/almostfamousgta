@@ -213,7 +213,7 @@ const Homepage = () => {
 			address: "139 Broadway Ave, Orangeville, ON",
 			phone: "519-941-1313",
 			description: "Show starts at 9pm",
-			image: "http://localhost:8080/assets/2f5243cf5c68402294a0.jpg",
+			image: "/assets/2f5243cf5c68402294a0.jpg",
 			date: "2019-06-22"
 		},
 		{
@@ -265,6 +265,7 @@ const Homepage = () => {
 
 	return (
 		<Layout>
+			{BlackWolfImage}
 			<HeroBanner />
 			<section className="container py-5">
 				{upcomingGigs.sort((a,b) => new Date(a.date) - new Date(b.date)).map((gig, index) => {
