@@ -29,12 +29,6 @@
 
 
 /**
- * Add typography
- */
-@import 'typography';
-
-
-/**
  * Add global styles
  */
 @import 'global';
@@ -54,9 +48,3 @@
 @import 'src/components/herobanner/heroBanner';
 @import 'src/components/promoCard/promoCard';
 
-/**
- * Include styles for individual pages
- *
- */
-@import './pages/homepage.scss';
-@import './pages/internalpages.scss';

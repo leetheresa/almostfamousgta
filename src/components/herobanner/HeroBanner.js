@@ -9,7 +9,7 @@ class HeroBanner extends React.Component {
                     <div className="afg-hero-banner">
                         <img src={StageImage} alt="Almost Famous GTA band logo" className="w-100" />
                         <div className="container py-5">
-                            <h1 className="text-center">Upcoming Shows <span className="afg-hero-banner__seo">Almost Famous GTA</span></h1>
+                            <h1 className="text-center">Almost Famous Upcoming Shows <span className="afg-hero-banner__seo">Almost Famous GTA</span></h1>
                         </div>
                     </div>
                 </section>
