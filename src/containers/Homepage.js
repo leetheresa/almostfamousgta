@@ -265,7 +265,6 @@ const Homepage = () => {
 
 	return (
 		<Layout>
-			{BlackWolfImage}
 			<HeroBanner />
 			<section className="container py-5">
 				{upcomingGigs.sort((a,b) => new Date(a.date) - new Date(b.date)).map((gig, index) => {
