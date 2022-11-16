@@ -1,10 +1,29 @@
 .button {
-  &--default {
-    color: pink;
+  background: white;
+  padding: 2rem 3rem;
+  font-size: 2.4rem;
+  line-height: normal;
+  text-align: center;
+  display: inline-block;
+  color: #111;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 250ms ease-in;
+  border: 1px solid #111;
+  border-radius: 0.4rem;
+  width: 100%;
+
+  &:focus,
+  &:hover,
+  &:active {
+    box-shadow: 0.2rem 0.3rem 0.6rem 0 rgba(white, 0.8);
+    background: #111111;
+    border: 0.1rem solid #111;
+    color: white;
   }
 
-  &--solid {
-    background-color: red;
+  &:active, &:focus {
+    border: 0.1rem solid white;
+    box-shadow: 0.2rem 0.3rem 0.6rem 0 rgba(#111111, 0.63), inset 0 0.3rem 0.6rem 0 rgba(#111111, 0.16);
   }
-
 }

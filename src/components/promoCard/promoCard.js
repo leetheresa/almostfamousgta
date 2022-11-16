@@ -20,6 +20,8 @@ const promoCard = props => {
                     {( props.address ? <p>{ props.address }</p> : '' )}
                     {( props.phone ? <p>{ props.phone }</p> : '' )}
                     {( props.description ? <p>{ props.description }</p> : '' )}
+                    {( props.link1 ? <a href={props.link1} target="_blank" className="d-block">{ props.link1Title ? props.link1Title : 'Click here' }</a> : '' )}
+                    {( props.link2 ? <a href={props.link2} target="_blank" className="d-block">{ props.link2Title ? props.link2Title : 'Click here' }</a> : '' )}
                 </div>
             </div>
         </div>
