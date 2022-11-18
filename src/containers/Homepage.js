@@ -37,13 +37,13 @@ const Homepage = () => {
 			date: "2023-03-11"
 		},
 		{
-			heading: "November 27th, 2022 – Almost Famous at Lionheart",
+			heading: "November 26th, 2022 – Almost Famous at Lionheart",
 			subHeading: "Lionheart British Pub & Restaurant, No cover",
 			phone: "(905) 824-6669",
 			address: "Derry Road West, Unit 24, Mississauga",
 			description: "Show starts at 9pm",
 			image: "/assets/fe61f9398b57c26af9e1.jpg",
-			date: "2022-11-27"
+			date: "2022-11-26"
 		},
 		{
 			heading: "December 16th, 2022 - Almost Famous at the South Shore Bar & Grill",
