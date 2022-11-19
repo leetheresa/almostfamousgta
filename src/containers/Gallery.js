@@ -52,72 +52,72 @@ const Gallery = () => {
                         <p><a href="https://www.flickr.com/gp/154588805@N08/R4366S" target="_blank">Dec 9, 2017, Christine’s Christmas Concert (Charity Event), Cuchuliann’s Pub</a></p>
                         <p><a href="https://flic.kr/s/aHskztJKvR" target="_blank">Almost Famous Archive 2014-2017</a></p>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery1Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery1Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery2Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-5"><img src={Gallery3Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-5 mb-5 mb-sm-0"><img src={Gallery3Image} className="w-100"/></div>
                         <div className="col-12 col-sm-7"><img src={Gallery4Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery5Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery5Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery6Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-5"><img src={Gallery7Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-5 mb-5 mb-sm-0"><img src={Gallery7Image} className="w-100"/></div>
                         <div className="col-12 col-sm-7"><img src={Gallery8Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery9Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery9Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery10Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-5"><img src={Gallery11Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-5 mb-5 mb-sm-0"><img src={Gallery11Image} className="w-100"/></div>
                         <div className="col-12 col-sm-7"><img src={Gallery12Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery13Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery13Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery14Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-5"><img src={Gallery14Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-5 mb-5 mb-sm-0"><img src={Gallery14Image} className="w-100"/></div>
                         <div className="col-12 col-sm-7"><img src={Gallery15Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery15Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery15Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery16Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-5"><img src={Gallery16Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-5 mb-5 mb-sm-0"><img src={Gallery16Image} className="w-100"/></div>
                         <div className="col-12 col-sm-7"><img src={Gallery17Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery18Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery18Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery19Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-5"><img src={Gallery20Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-5 mb-5 mb-sm-0"><img src={Gallery20Image} className="w-100"/></div>
                         <div className="col-12 col-sm-7"><img src={Gallery21Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery22Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery22Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery23Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-5"><img src={Gallery24Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-5 mb-5 mb-sm-0"><img src={Gallery24Image} className="w-100"/></div>
                         <div className="col-12 col-sm-7"><img src={Gallery25Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery26Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery26Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery27Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-5"><img src={Gallery28Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-5 mb-5 mb-sm-0"><img src={Gallery28Image} className="w-100"/></div>
                         <div className="col-12 col-sm-7"><img src={Gallery29Image} className="w-100"/></div>
                     </div>
-                    <div className="d-flex mb-5">
-                        <div className="col-12 col-sm-7"><img src={Gallery30Image} className="w-100"/></div>
+                    <div className="d-block d-sm-flex mb-5">
+                        <div className="col-12 col-sm-7 mb-5 mb-sm-0"><img src={Gallery30Image} className="w-100"/></div>
                         <div className="col-12 col-sm-5"><img src={Gallery31Image} className="w-100"/></div>
                     </div>
                     <div className="d-flex mb-5">

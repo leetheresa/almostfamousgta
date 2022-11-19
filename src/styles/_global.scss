@@ -107,5 +107,6 @@ label {
 
   @include media-breakpoint-down(sm) {
     height: auto;
+    object-fit: unset;
   }
 }
