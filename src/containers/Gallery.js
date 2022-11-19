@@ -46,9 +46,9 @@ const Gallery = () => {
                 <HeroBanner heading="Gallery"/>
                 <section className="container my-5 py-5 afg-gallery">
                     <div className="col-12 pb-5 mb-5">
-                        <h3>2018</h3>
+                        <h2 className="afg-h3">2018</h2>
                         <p><a href="https://flic.kr/s/aHsmi4BQg7" target="_blank">May 30, 2018, The Horseshoe Tavern, Showcase Night</a></p>
-                        <h3 className="mt-5">2017</h3>
+                        <h2 className="afg-h3 mt-5">2017</h2>
                         <p><a href="https://www.flickr.com/gp/154588805@N08/R4366S" target="_blank">Dec 9, 2017, Christine’s Christmas Concert (Charity Event), Cuchuliann’s Pub</a></p>
                         <p><a href="https://flic.kr/s/aHskztJKvR" target="_blank">Almost Famous Archive 2014-2017</a></p>
                     </div>
