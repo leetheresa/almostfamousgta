@@ -49,7 +49,6 @@ const About = () => {
                     </div>
                     <h3 className="pt-5 mt-5">Where we've performed</h3>
                     <ul class="list-unstyled">
-                        <li>Lionheart – Mississauga (November 26, 2022)</li>
                         <li>The St. George Pub – Georgetown (October 8, 2022)</li>
                         <li>Honest Lawyer – Welland (October 1, 2022)</li>
                         <li>Oscar’s Roadhouse & Grill – Brampton</li>

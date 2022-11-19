@@ -46,6 +46,11 @@ p, li, label, a {
   color: #fff;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 label {
   font-size: 1.6rem;
   line-height: 1.29;
@@ -90,5 +95,17 @@ label {
     font-size: 1.4rem;
     line-height: normal;
     text-transform: uppercase;
+  }
+}
+
+.afg-gallery {
+  img {
+    height: 375px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  @include media-breakpoint-down(sm) {
+    height: auto;
   }
 }
