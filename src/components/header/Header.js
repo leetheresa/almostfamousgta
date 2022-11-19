@@ -46,10 +46,10 @@ class Header extends React.Component {
                     <div className={"afg-header__list" + (this.state.menuOpen ? ' active' : '')}>
                         <ul className="container">
                             <li>
-                                <Link to="/" onClick={this.handleClose}>HOME</Link>
+                                <Link to="/" onClick={this.handleClose}>SHOWS</Link>
                             </li>
                             <li>
-                                <Link to="/about" onClick={this.handleClose}>ABOUT/BAND BIO</Link>
+                                <Link to="/about" onClick={this.handleClose}>ABOUT THE BAND</Link>
                             </li>
                             <li>
                                 <Link to="/gallery" onClick={this.handleClose}>GALLERY</Link>
