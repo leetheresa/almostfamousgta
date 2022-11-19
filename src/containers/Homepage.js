@@ -306,7 +306,7 @@ const Homepage = () => {
 					);
 				})}
 				{next < recentGigs?.length && (
-					<div className="text-center pt-5">
+					<div className="text-center py-5">
 						<button
 							className="button mt-4 btn-lg btn btn-dark px-5 afg-h2"
 							onClick={handleMoreImage}

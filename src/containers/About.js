@@ -77,13 +77,6 @@ const About = () => {
                         <li>Grundfos Corporate Christmas Party – Mississauga</li>
                     </ul>
                 </section>
-                <hr className="bg-white"/>
-                <section className="container text-center py-5 my-5">
-                    <h2>Contact us:</h2>
-                    <p>Email: almostfamousgta@gmail.com</p>
-                    <p>Twitter:  @almostfamousgta</p>
-                </section>
-                <hr className="bg-white"/>
             </Layout>
         </>
     )
