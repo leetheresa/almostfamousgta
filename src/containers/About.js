@@ -18,7 +18,7 @@ const About = () => {
     return (
         <>
             <Layout>
-                <HeroBanner heading="About Almost Famous"/>
+                <HeroBanner heading="About The Band"/>
                 <div className="container d-block d-sm-flex py-5">
                     <div className="col-12 col-sm-6">
                         <a href="https://www.electrofed.com/2020/12/the-electrical-industrys-got-talent-show-eigt-a-huge-hit-winners-announced/" target="_blank">

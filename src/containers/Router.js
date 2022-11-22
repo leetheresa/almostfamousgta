@@ -9,7 +9,7 @@ const Router = () => (
     <BrowserRouter>
         <Switch>
             <Route exact path={"/"} component={Homepage}/>
-            <Route path={"/about"} component={About}/>
+            <Route path={"/about-the-band"} component={About}/>
             <Route path={"/gallery"} component={Gallery}/>
             <Route path={"/contact"} component={Contact}/>
         </Switch>
