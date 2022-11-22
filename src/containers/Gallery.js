@@ -124,6 +124,14 @@ const Gallery = () => {
                         <div className="col-12 col-sm-7"><img src={Gallery32Image} className="w-100"/></div>
                     </div>
                 </section>
+                <hr className="bg-white b-5"/>
+                <section className="container text-center py-5 my-5">
+                    <h3 className="afg-h2">Contact us:</h3>
+                    <p>Email: <a href="mailto:almostfamousgta@gmail.com" target="_blank">almostfamousgta@gmail.com</a></p>
+                    <p>Twitter: <a href="https://twitter.com/almostfamousGTA" target="_blank">@almostfamousgta</a></p>
+                    <p>Links to ALL Links:  <a href="https://linktr.ee/almostfamousgta" target="_blank">linktr.ee/almostfamousgta</a></p>
+                </section>
+                <hr className="bg-white"/>
             </Layout>
         </>
     )

@@ -36,6 +36,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
-    "tiny-slider": "^2.9.3"
+    "tiny-slider": "^2.9.3",
+    "moment": "^2.29.4"
   }
 }

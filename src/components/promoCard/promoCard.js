@@ -1,5 +1,6 @@
 import React from "react";
 import StageImage from "../../assets/stage.jpg";
+import moment from "moment";
 
 const promoCard = props => {
     return (
@@ -14,7 +15,7 @@ const promoCard = props => {
                 </picture>
             </div>
             <div className="afg-promo-card__text col-12 col-sm-8 pr-0 pl-0 pr-sm-8">
-                <h2>{ props.heading }</h2>
+                <h2>{moment(props.date).format('LL')} <br/> Almost Famous At { props.heading }</h2>
                 <h3 className="afg-promo-card__sub-title afg-h3">{ props.subHeading }</h3>
                 <div className="afg-promo-card__description">
                     {( props.address ? <p>{ props.address }</p> : '' )}

@@ -13,7 +13,6 @@ import OscarsRoadHouseImage from "../assets/Restaurant-990x556.jpg";
 import SouthShoreImage from "../assets/shore.jpeg";
 import CuchulainnImage from "../assets/Capture.jpg";
 import HonestLawyer2Image from "../assets/honest-lawyer.jpg";
-import EIFImage from "../assets/EFC-Win2.jpg";
 import DakotaImage from "../assets/52598845_304819366882662_412119888920838144_o-1.jpg";
 import RoyalLegionImage from "../assets/royal-101-990x556.png";
 import BlackWolfImage from "../assets/Black-Wolf-973x556.jpg";
@@ -26,9 +25,9 @@ import HamiltonBullDogsImage from "../assets/hamilton-bulldogs-erie-otters.jpg";
 const imagePerRow = 8;
 
 const Homepage = () => {
-	const upcomingGigs = [
+	const gigs = [
 		{
-			heading:"March 11, 2023 – Almost Famous at Honest Lawyer (Hamilton)",
+			heading:"Honest Lawyer (Hamilton)",
 			subHeading:"Honest Lawyer (Hamilton), No cover",
 			phone:"(289) 674-1080",
 			address:"1115 Fennell Ave East, Hamilton",
@@ -37,7 +36,7 @@ const Homepage = () => {
 			date: "2023-03-11"
 		},
 		{
-			heading: "November 26th, 2022 – Almost Famous at Lionheart",
+			heading: "Lionheart",
 			subHeading: "Lionheart British Pub & Restaurant, No cover",
 			phone: "(905) 824-6669",
 			address: "Derry Road West, Unit 24, Mississauga",
@@ -46,7 +45,7 @@ const Homepage = () => {
 			date: "2022-11-26"
 		},
 		{
-			heading: "December 16th, 2022 - Almost Famous at the South Shore Bar & Grill",
+			heading: "the South Shore Bar & Grill",
 			subHeading: "South Shore Bar & Grill",
 			phone: "(416) 704-1820",
 			address: "264 Browns Line, Toronto, ON, Canada, Ontario",
@@ -55,7 +54,7 @@ const Homepage = () => {
 			date: "2022-12-16"
 		},
 		{
-			heading: "January 6th, 2023 - Almost Famous at The St. George Pub",
+			heading: "The St. George Pub",
 			subHeading: "The St. George Pub, No cover",
 			phone: "(905) 873-0555",
 			address: "7 Main Street North, Georgetown",
@@ -64,7 +63,7 @@ const Homepage = () => {
 			date: "2023-01-06"
 		},
 		{
-			heading: "January 14, 2023 – Almost Famous at Honest Lawyer (Hamilton)",
+			heading: "Honest Lawyer (Hamilton)",
 			subHeading: "Honest Lawyer (Hamilton), No cover",
 			phone: "(289) 674-1080",
 			address: "1115 Fennell Ave East, Hamilton",
@@ -72,11 +71,8 @@ const Homepage = () => {
 			image: "/assets/d9a7793ceb95e807f941.jpg",
 			date: "2023-01-14"
 		},
-	];
-
-	const recentGigs = [
 		{
-			heading:"October 8th, 2022 – Almost Famous at The St. George Pub",
+			heading:"The St. George Pub",
 			subHeading:"The St. George Pub, No cover",
 			phone:"(905) 873-0555",
 			address:"7 Main Street North, Georgetown",
@@ -85,7 +81,16 @@ const Homepage = () => {
 			date: "2022-10-08"
 		},
 		{
-			heading:"August 5th, 2022 – Almost Famous at Oscar’s Roadhouse",
+			heading:"The St. George Pub",
+			subHeading:"The St. George Pub, No cover",
+			phone:"(905) 873-0555",
+			address:"7 Main Street North, Georgetown",
+			description:"Show starts at 9pm",
+			image: "/assets/053b00df983972fdb6c4.jpg",
+			date: "2022-08-26"
+		},
+		{
+			heading:"Oscar’s Roadhouse",
 			subHeading:"Oscar’s Roadhouse Bar & Grill, No cover",
 			phone:"(905) 799-1304",
 			address:"1785 Queen St East, Brampton",
@@ -94,7 +99,7 @@ const Homepage = () => {
 			date: "2022-08-05"
 		},
 		{
-			heading:"July 16th, 2022 – Almost Famous at Honest Lawyer – Fennell",
+			heading:"Honest Lawyer – Fennell",
 			subHeading: "Honest Lawyer (Fennell), No cover",
 			phone: "(289) 674-1080",
 			address: "1115 Fennell Ave East, Hamilton",
@@ -103,7 +108,7 @@ const Homepage = () => {
 			date: "2022-01-16"
 		},
 		{
-			heading:"February 15th, 2020 – Almost Famous at Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn’s Irish Pub",
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -112,7 +117,7 @@ const Homepage = () => {
 			date: "2020-02-15"
 		},
 		{
-			heading:"February 8th, 2020 – Almost Famous at Honest Lawyer (Downtown)",
+			heading:"Honest Lawyer (Downtown)",
 			subHeading: "Honest Lawyer (Downtown) , No cover",
 			phone: "(905) 522-5297",
 			address: "1115 Fennell Ave East, Hamilton",
@@ -121,7 +126,7 @@ const Homepage = () => {
 			date: "2020-02-08"
 		},
 		{
-			heading:"January 4th, 2020 – Almost Famous at Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn’s Irish Pub",
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -130,16 +135,7 @@ const Homepage = () => {
 			date: "2020-01-04"
 		},
 		{
-			heading:"December 10, 2020 - Almost Famous wins EFC Talent Show",
-			link1: "https://www.electrofed.com/2020/12/the-electrical-industrys-got-talent-show-eigt-a-huge-hit-winners-announced/",
-			link1Title: "Click here to read more",
-			link2: "https://www.youtube.com/channel/UCHoIVl7bjMpa5YjhxbJlAyQ",
-			link2Title: "Follow YouTube link to watch video",
-			image: "/assets/fcafac3f3d18ac1ebcac.jpg",
-			date: "2020-12-10"
-		},
-		{
-			heading:"December 14th, 2019 – Almost Famous at Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn’s Irish Pub",
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -148,7 +144,7 @@ const Homepage = () => {
 			date: "2019-12-14"
 		},
 		{
-			heading:"November 16th, 2019 – Almost Famous at Dakota’s Sports Bar & Grill",
+			heading:"Dakota’s Sports Bar & Grill",
 			subHeading: "Dakota's sports bar, $5 Cover",
 			address: "2814 Lake Shore Blvd, W Unit 2, Toronto, ON",
 			description: "Show starts at 9pm",
@@ -156,7 +152,7 @@ const Homepage = () => {
 			date: "2019-11-16"
 		},
 		{
-			heading:"November 2nd, 2019 – Almost Famous at Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn’s Irish Pub",
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -165,7 +161,7 @@ const Homepage = () => {
 			date: "2019-11-02"
 		},
 		{
-			heading:"October 5th, 2019 – Almost Famous at Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn’s Irish Pub",
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -174,7 +170,7 @@ const Homepage = () => {
 			date: "2019-10-05"
 		},
 		{
-			heading:"September 7th, 2019 – Almost Famous at Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn’s Irish Pub",
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -183,7 +179,7 @@ const Homepage = () => {
 			date: "2019-09-07"
 		},
 		{
-			heading:"August 17th, 2019 – Almost Famous at Cuchulainn’s Irish Pub",
+			heading:"Cuchulainn’s Irish Pub",
 			subHeading: "Cuchulainn’s Irish Pub, No cover",
 			phone: "(905) 821-3790",
 			address: "158 Queen St S, Mississauga, Ontario L5M 1K8",
@@ -192,7 +188,7 @@ const Homepage = () => {
 			date: "2019-08-17"
 		},
 		{
-			heading:"August 10th, 2019 – Almost Famous Dinner/Dance with Rock Express",
+			heading:"Rock Express with Dinner/Dance",
 			subHeading: "Doors open 5:30pm – Show starts at 6:00pm – Dinner at 7:00pm",
 			address: "Royal Canadian Legion, Branch 101",
 			description: "$35 Advanced $40 at the door, Ticket information",
@@ -200,7 +196,7 @@ const Homepage = () => {
 			date: "2019-08-10"
 		},
 		{
-			heading:"July 6th, 2019 – Almost Famous at Dakota’s Sports Bar & Grill",
+			heading:"Dakota’s Sports Bar & Grill",
 			subHeading: "Dakota's sports bar, $5 Cover",
 			address: "2814 Lake Shore Blvd, W Unit 2, Toronto, ON",
 			description: "Show starts at 9pm",
@@ -208,7 +204,7 @@ const Homepage = () => {
 			date: "2019-07-06"
 		},
 		{
-			heading:"June 22nd, 2019 – Almost Famous at The Black Wolf Smokehouse",
+			heading:"The Black Wolf Smokehouse",
 			subHeading: "The Black Wolf Smokehouse, $5 Cover",
 			address: "139 Broadway Ave, Orangeville, ON",
 			phone: "519-941-1313",
@@ -217,7 +213,7 @@ const Homepage = () => {
 			date: "2019-06-22"
 		},
 		{
-			heading:"August 24th, 2018 – Almost Famous at Drums N Flats",
+			heading:"Drums N Flats",
 			subHeading: "Drums N Flat, $5 Cover",
 			address: "60 Randall Drive, Ajax, ON",
 			description: "Show starts at 9pm",
@@ -225,7 +221,7 @@ const Homepage = () => {
 			date: "2018-08-24"
 		},
 		{
-			heading:"May 30th, 2018 – Almost Famous at The Horseshoe Tavern",
+			heading:"The Horseshoe Tavern",
 			subHeading: "Other acts: Hyness, Saint Yves, Six At Best, Infinite Repeat",
 			address: "370 Queen Street West, Toronto, ON",
 			description: "Show starts at 9pm. We go on at 11:30pm.",
@@ -233,7 +229,7 @@ const Homepage = () => {
 			date: "2018-05-30"
 		},
 		{
-			heading:"January 27th, 2018 – Almost Famous at Spot 1 Grill & Music Hall",
+			heading:"Spot 1 Grill & Music Hall",
 			subHeading: "Other acts: Torpedo Sunrise, Mid Life Crisis",
 			address: "289 Rutherford Rd South, Brampton, ON",
 			description: "Show starts at 9pm. We go on at 11pm.",
@@ -241,7 +237,7 @@ const Homepage = () => {
 			date: "2018-01-27"
 		},
 		{
-			heading:"December 9th, 2017 – Almost Famous at Cuchulainn’s Irish Pub, Charity Event",
+			heading:"Cuchulainn’s Irish Pub, Charity Event",
 			subHeading: "Other acts: The Groove Co, Ryan Dornan, Luke Reece, Poetry Slam",
 			address: "158 Queen St South, Mississauga, ON",
 			description: "Event starts at 8pm. We go on at 10:30pm.",
@@ -249,7 +245,7 @@ const Homepage = () => {
 			date: "2017-10-09"
 		},
 		{
-			heading:"November 10th, 2017 – Almost Famous at FirstOntario Centre",
+			heading:"FirstOntario Centre",
 			subHeading: "We will be playing at the FirstOntario Centre in the King Club (bar area) from 6:30 pm to 7:00 pm and during the 2 intermissions.",
 			address: "101 York Blvd, Hamilton, ON",
 			description: "6:00 PM",
@@ -257,6 +253,14 @@ const Homepage = () => {
 			date: "2017-11-10"
 		},
 	];
+
+	let upcomingGigs = gigs.filter((newVal) => {
+		return new Date(newVal.date) >= Date.now() ;
+	});
+
+	let recentGigs = gigs.filter((newVal) => {
+		return new Date(newVal.date) < Date.now() ;
+	});
 
 	const [next, setNext] = useState(imagePerRow);
 	const handleMoreImage = () => {
@@ -280,6 +284,7 @@ const Homepage = () => {
 									   link1Title={gig.link1Title}
 									   link2={gig.link2}
 									   link2Title={gig.link2Title}
+									   date={gig.date}
 							/>
 						</div>
 					);
@@ -301,6 +306,7 @@ const Homepage = () => {
 									   link1Title={item.link1Title}
 									   link2={item.link2}
 									   link2Title={item.link2Title}
+									   date={item.date}
 							/>
 						</div>
 					);
@@ -317,6 +323,14 @@ const Homepage = () => {
 
 				)}
 			</section>
+			<hr className="bg-white b-5"/>
+			<section className="container text-center py-5 my-5">
+				<h3 className="afg-h2">Contact us:</h3>
+				<p>Email: <a href="mailto:almostfamousgta@gmail.com" target="_blank">almostfamousgta@gmail.com</a></p>
+				<p>Twitter: <a href="https://twitter.com/almostfamousGTA" target="_blank">@almostfamousgta</a></p>
+				<p>Links to ALL Links:  <a href="https://linktr.ee/almostfamousgta" target="_blank">linktr.ee/almostfamousgta</a></p>
+			</section>
+			<hr className="bg-white"/>
 		</Layout>
 	)
 }

@@ -54,6 +54,9 @@ class Header extends React.Component {
                             <li>
                                 <Link to="/gallery" onClick={this.handleClose}>GALLERY</Link>
                             </li>
+                            <li>
+                                <Link to="/contact" onClick={this.handleClose}>CONTACT</Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>
